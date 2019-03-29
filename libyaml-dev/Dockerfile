@@ -29,3 +29,5 @@ RUN curl https://sourceforge.net/projects/doxygen/files/rel-1.8.14/doxygen-1.8.1
     make && \
     make install
 
+COPY scripts/libyaml-dist.sh /libyaml-dist.sh
+
